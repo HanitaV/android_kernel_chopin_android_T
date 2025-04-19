@@ -7,8 +7,8 @@ source ~/.bashrc && source ~/.profile
 export LC_ALL=C && export USE_CCACHE=1
 ccache -M 100G
 export ARCH=arm64
-export KBUILD_BUILD_HOST=MARKxDEVS
-export KBUILD_BUILD_USER="AbzRaider"
+export KBUILD_BUILD_HOST=HanitaV
+export KBUILD_BUILD_USER="Harry"
 git clone --depth=1  https://gitlab.com/LeCmnGend/proton-clang.git -b clang-13  clang
 
 
@@ -40,10 +40,10 @@ make -j$(nproc --all) O=out \
 function zipping()
 {
 rm -rf AnyKernel	
-git clone --depth=1 https://github.com/AbzRaider/AnyKernel33 -b ares AnyKernel
+git clone --depth=1 https://github.com/HanitaV/AnyKernel33 -b chopin AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
-zip -r9 Test-OSS-KERNEL-CHOPIN-S.zip *
+zip -r9 KSU-OSS-KERNEL-CHOPIN-S.zip *
 #curl --upload-file "Test-OSS-KERNEL-CHOPIN-S.zip" https://free.keep.sh
 }
 zipping
