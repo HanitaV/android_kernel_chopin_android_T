@@ -108,7 +108,7 @@ struct fsnotify_ops {
 	/* called on final put+free to free memory */
 	void (*free_mark)(struct fsnotify_mark *mark);
 };
-
+u32 inotify_mark_user_mask(struct fsnotify_mark *mark);
 /*
  * all of the information about the original object we want to now send to
  * a group.  If you want to carry more info from the accessing task to the

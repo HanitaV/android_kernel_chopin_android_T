@@ -46,5 +46,4 @@ cd AnyKernel
 zip -r9 Test-OSS-KERNEL-CHOPIN-S.zip *
 #curl --upload-file "Test-OSS-KERNEL-CHOPIN-S.zip" https://free.keep.sh
 }
-compile
 zipping

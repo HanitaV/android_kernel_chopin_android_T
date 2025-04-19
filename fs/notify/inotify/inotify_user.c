@@ -84,6 +84,11 @@ struct ctl_table inotify_table[] = {
 };
 #endif /* CONFIG_SYSCTL */
 
+u32 inotify_mark_user_mask(struct fsnotify_mark *mark)
+{
+    return mark->mask;
+}
+
 static inline __u32 inotify_arg_to_mask(u32 arg)
 {
 	__u32 mask;

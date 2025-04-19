@@ -1,0 +1,128 @@
+make[1]: Entering directory '/home/hanitav/workdir/android_kernel_chopin_android_T/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+drivers/input/touchscreen/Kconfig:48:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:8:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:14:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:19:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:28:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:34:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:40:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:46:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:54:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:60:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:66:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:72:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:78:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:84:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:90:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:96:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:102:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:108:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:116:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:121:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:127:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:133:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/hxchipset/Kconfig:17:warning: choice value used outside its choice group
+drivers/input/touchscreen/hxchipset/Kconfig:23:warning: choice value used outside its choice group
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  UPD     include/config/kernel.release
+-- KernelSU-Next version: 12490
+-- KernelSU-Next Manager signature size: 0x3e6
+-- KernelSU-Next Manager signature hash: 79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7
+-- KSU_NEXT: Neither atomic_inc_not_zero nor atomic_long_inc_not_zero found in kernel/cred.c
+-- KSU_NEXT: Using  in get_cred_rcu patch.
+
+-- SUSFS_VERSION: v1.5.5
+..
+../drivers/misc/mediatek/base/power/qos/Makefile:46: extraneous text after 'else' directive
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+../drivers/misc/mediatek/thermal/common/coolers/Makefile:278: 3 liaoye "mt6885"
+  Using .. as source for kernel
+  CHK     include/generated/utsrelease.h
+  UPD     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  CC      kernel/sys.o
+  CC      kernel/trace/trace.o
+  CC      kernel/module.o
+  CHK     kernel/config_data.h
+  CHK     kernel/kheaders_data.tar.xz
+  GEN     kernel/kheaders_data.tar.xz
+  CC      drivers/base/firmware_class.o
+  AR      drivers/base/built-in.o
+  AR      kernel/trace/built-in.o
+  AR      kernel/built-in.o
+-- KernelSU-Next version: 12490
+-- KernelSU-Next Manager signature size: 0x3e6
+-- KernelSU-Next Manager signature hash: 79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7
+-- KSU_NEXT: Neither atomic_inc_not_zero nor atomic_long_inc_not_zero found in kernel/cred.c
+-- KSU_NEXT: Using  in get_cred_rcu patch.
+
+-- SUSFS_VERSION: v1.5.5
+../drivers/misc/mediatek/base/power/qos/Makefile:46: extraneous text after 'else' directive
+..
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6893"
+*GPU defined GPU BM QoS 2.0
+../drivers/misc/mediatek/thermal/common/coolers/Makefile:278: 3 liaoye "mt6885"
+  AR      drivers/built-in.o
+  CC [M]  kernel/kheaders.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  AR      built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  Building modules, stage 2.
+  MODPOST 5 modules
+  CC      drivers/video/backlight/lcd.mod.o
+  CC      kernel/kheaders.mod.o
+  CC      net/bridge/br_netfilter.mod.o
+  CC      net/ipv4/tcp_htcp.mod.o
+  CC      net/ipv4/tcp_westwood.mod.o
+  LD [M]  net/bridge/br_netfilter.ko
+  LD [M]  net/ipv4/tcp_htcp.ko
+  LD [M]  kernel/kheaders.ko
+  LD [M]  drivers/video/backlight/lcd.ko
+  LD [M]  net/ipv4/tcp_westwood.ko
+  GZIP    arch/arm64/boot/Image.gz
+  DTC     arch/arm64/boot/dts/mediatek/chopin.dtb
+  CAT     arch/arm64/boot/Image.gz-dtb
+make[1]: Leaving directory '/home/hanitav/workdir/android_kernel_chopin_android_T/out'
