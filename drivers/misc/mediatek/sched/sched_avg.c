@@ -1187,9 +1187,10 @@ void sched_update_nr_prod(int cpu, unsigned long nr_running, int inc)
 	per_cpu(nr, cpu) = nr_running + inc;
 
 	if (per_cpu(nr, cpu) < 0)
-		printk_deferred("assertion failed at %s:%d\n",
-		__FILE__,
-		__LINE__);
+		// printk_deferred("assertion failed at %s:%d\n",
+		// __FILE__,
+		// __LINE__);
+		per_cpu(nr, cpu) = 0;
 
 #ifdef CONFIG_MTK_CORE_CTL
 	spin_lock(&per_cpu(nr_heavy_lock, cpu));
